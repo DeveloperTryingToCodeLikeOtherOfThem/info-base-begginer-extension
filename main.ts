@@ -378,7 +378,7 @@ function drawTimer(millis: number) {
          * @param player player to check life of
          */
         //% group="Multiplayer"
-        //% blockId=pihaslife block="%player has life"
+        //% blockId=pihaslife2 block="%player has life"
         //% help=info/has-life
         hasLife(): boolean {
             const state = this.getState();
