@@ -283,7 +283,7 @@ function drawTimer(millis: number) {
          * Get the player score
          */
         //% group="Multiplayer"
-        //% blockId=piscore block="%player score"
+        //% blockId=piscore2 block="%player score"
         //% help=info/score
         score(): number {
             if (this.showScore === undefined) this.showScore = true;
@@ -300,7 +300,7 @@ function drawTimer(millis: number) {
          * Set the player score
          */
         //% group="Multiplayer"
-        //% blockId=pisetscore block="set %player score to %value"
+        //% blockId=pisetscore2 block="set %player score to %value"
         //% value.defl=0
         //% help=info/set-score
         setScore(value: number) {
@@ -316,7 +316,7 @@ function drawTimer(millis: number) {
          * @param value
          */
         //% group="Multiplayer"
-        //% blockId=pichangescore block="change %player score by %value"
+        //% blockId=pichangescore2 block="change %player score by %value"
         //% value.defl=1
         //% help=info/change-score-by
         changeScoreBy(value: number): void {
@@ -332,7 +332,7 @@ function drawTimer(millis: number) {
          * Get the player life
          */
         //% group="Multiplayer"
-        //% blockid=piflife block="%player life"
+        //% blockid=piflife2 block="%player life"
         //% help=info/life
         life(): number {
             const state = this.getState();
@@ -349,7 +349,7 @@ function drawTimer(millis: number) {
          * Set the player life
          */
         //% group="Multiplayer"
-        //% blockId=pisetlife block="set %player life to %value"
+        //% blockId=pisetlife2 block="set %player life to %value"
         //% value.defl=3
         //% help=info/set-life
         setLife(value: number): void {
@@ -365,7 +365,7 @@ function drawTimer(millis: number) {
          * @param value
          */
         //% group="Multiplayer"
-        //% blockId=pichangelife block="change %player life by %value"
+        //% blockId=pichangelife2 block="change %player life by %value"
         //% value.defl=-1
         //% help=info/change-life-by
         changeLifeBy(value: number): void {
@@ -390,7 +390,7 @@ function drawTimer(millis: number) {
          * @param handler
          */
         //% group="Multiplayer"
-        //% blockId=playerinfoonlifezero block="on %player life zero"
+        //% blockId=playerinfoonlifezero2 block="on %player life zero"
         //% help=info/on-life-zero
         onLifeZero(handler: () => void) {
             const state = this.getState();
