@@ -20,7 +20,8 @@
         "targetId": "arcade"
     },
     "supportedTargets": [
-        "arcade"
+        "arcade",
+        "pxt"
     ],
     "preferredEditor": "tsprj",
     "languageRestriction": "javascript-only"
